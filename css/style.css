@@ -1,0 +1,50 @@
+:root {
+    --Primery-Red: #A31123;
+    --Secondary-Red-Alfa: rgba( 163, 17, 34, 0.6);
+    --Santa-Green: #0A9F99;
+    --ColorWhite: #fff;
+}
+
+.body {
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+#title {
+    padding: 5% 15%;
+    background-color: var(--Primery-Red);
+    color: var(--ColorWhite);
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/* NAVBAR */
+
+.navbar {
+    padding-bottom: 4.5rem;
+    padding-left: 0;
+    width: auto;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.nav-item {
+    padding: 0 1rem;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+}
