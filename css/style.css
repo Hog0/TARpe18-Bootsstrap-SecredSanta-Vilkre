@@ -1,13 +1,20 @@
 :root {
     --Primery-Red: #A31123;
-    --Secondary-Red-Alfa: rgba( 163, 17, 34, 0.6);
+    --Secondary-Red-Alfa: #a3112270;
     --Santa-Green: #0A9F99;
     --ColorWhite: #fff;
+    --Colorgrey: #8f8f8f;
+    --Darkblack: #00000018;
 }
 
 .body {
     font-family: 'Ubuntu', sans-serif;
     font-family: 'Montserrat', sans-serif;
+}
+
+.row{
+    margin: 0;
+    padding: 0;
 }
 
 .container-fluid {
@@ -56,4 +63,89 @@ h1 {
 .title-image {
     width: 55%;
     transform: rotate(15deg);
+}
+
+/*FEATURES SECTION */
+
+#features {
+    padding: 7% 15%;
+    background: var(--ColorWhite);
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.feature-box h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+.feature-box p {
+    color: var(--Colorgrey);
+}
+
+#features i {
+    color: var(--Primery-Red);
+    margin-bottom: 1rem;
+    transition-duration: 1s;
+}
+
+#features i:hover {
+    color: var(--Santa-Green);
+    transform: scale(1.1);
+}
+
+/*Testimonials*/
+
+#testimonials {
+    background-color: var(--Secondary-Red-Alfa);
+    color: var(--ColorWhite);
+    text-align: center;
+}
+
+#testimonials h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+#testimonials img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 2rem;
+}
+
+.press {
+    background-color: var(--Secondary-Red-Alfa);
+    text-align: center;
+    padding: 3% 0;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 0 1%;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+/* CARDS */
+
+.card {
+    text-align: center;
+    background-color: var(--Colorgrey);
+}
+
+#pricing {
+    padding: 4rem;
+    text-align: center;
+}
+
+.pricing-column {
+    padding: 3% 2%;
 }
