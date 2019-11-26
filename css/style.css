@@ -138,7 +138,7 @@ h1 {
 
 .card {
     text-align: center;
-    background-color: var(--Colorgrey);
+    background-color: var(--Darkblack);
 }
 
 #pricing {
@@ -146,6 +146,43 @@ h1 {
     text-align: center;
 }
 
+/* Bottom Download */
+
+.cta-column {
+    padding: 0;
+}
+
 .pricing-column {
     padding: 3% 2%;
+}
+
+.download-bottom {
+    margin: auto;
+    text-align: center;
+}
+
+.download-bottom h3 {
+    padding-top: 1rem;
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    margin: 0;
+}
+
+.download-btn {
+    margin: 5% 5%;
+}
+
+/* Footer */
+
+.footer {
+    text-align: center;
+    background-color: var(--Primery-Red);
+}
+
+.footer p {
+    color: var(--ColorWhite);
+    font-size: 1rem;
+    margin: 0;
+    padding: 1rem 0 ;
 }
