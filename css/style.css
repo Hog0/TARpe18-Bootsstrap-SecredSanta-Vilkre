@@ -150,6 +150,7 @@ h1 {
 
 .cta-column {
     padding: 0;
+    background-color: var(--Primery-Red);
 }
 
 .pricing-column {
@@ -163,14 +164,27 @@ h1 {
 
 .download-bottom h3 {
     padding-top: 1rem;
-    font-size: 2rem;
+    color: var(--ColorWhite);
+    font-size: 4rem;
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
+    padding-top: 5%;
     margin: 0;
 }
 
 .download-btn {
     margin: 5% 5%;
+}
+
+/* Logos */
+
+.logos-column {
+    text-align: center;
+    padding: 5rem;
+}
+
+.logos-column i {
+    padding: 0 3rem;
 }
 
 /* Footer */
@@ -185,4 +199,16 @@ h1 {
     font-size: 1rem;
     margin: 0;
     padding: 1rem 0 ;
+}
+
+
+@media (max-width: 420px) {
+
+    .logos-column {
+        padding: 2.5rem;
+    }
+
+    .logos-column i {
+        padding: 1rem 3rem;
+    }
 }
